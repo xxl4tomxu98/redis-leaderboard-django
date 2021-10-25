@@ -96,8 +96,6 @@ git clone https://github.com/redis-developer/basic-redis-leaderboard-demo-python
 
 ### Run docker compose or install redis manually
 
-Install docker (on mac: <https://docs.docker.com/docker-for-mac/install/>)
-
 ```sh
 docker network create global
 docker-compose up -d --build
@@ -115,13 +113,13 @@ docker-compose up -d --build
 
 #### Run backend
 
-Install python, pip and venv (on mac: <https://installpython3.com/mac/>)
-
 Use python version: 3.8.9
 
 ``` sh
 python3 -m venv venv
 source venv/bin/activate
+pip install --upgrade pip
+pip install wheel
 pip3 install -r requirements.txt
 python3 server/manage.py collectstatic
 python3 server/manage.py runserver
