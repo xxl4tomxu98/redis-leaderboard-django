@@ -6,10 +6,10 @@ yum install -y python36u
 
 # Install pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3.6 get-pip.py
+python3.9 get-pip.py
 
 # Install project requirements
 pip3 install -r google-cloud-run/requirements.txt
 
 # Build staticfiles
-python3.6 server/manage.py collectstatic
+python3.9 server/manage.py collectstatic

@@ -113,7 +113,7 @@ docker-compose up -d --build
 
 #### Run backend
 
-Use python version: 3.8.9
+Use python version: 3.9
 
 ``` sh
 python3 -m venv venv
