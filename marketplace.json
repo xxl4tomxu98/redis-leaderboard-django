@@ -1,6 +1,6 @@
 {
   "app_name": "Basic Redis leaderboard example in Python (Django)",
-  "description": "Showcases how to impliment leaderboard appliation in Python (Django)",
+  "description": "Showcases how to impliment leaderboard application in Python (Django)",
   "type": "Building Block",
   "contributed_by": "Redis Labs",
   "repo_url": "https://github.com/redis-developer/basic-redis-leaderboard-demo-python",
